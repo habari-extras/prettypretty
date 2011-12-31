@@ -1,0 +1,130 @@
+/*
+ * Name: Habari Admin Pretty Pretty Stylesheet
+ * Author: Habari Community with modifications by Randy Walker
+ * License: Apache License 2.0
+ */
+
+body {
+	background-color: #DBE6F0;
+	color: #000;
+}
+
+/*- THE MENUBAR */
+
+#menubar {
+	background: #B7410E;
+}
+
+#menubar a {
+	color: #fff;
+}
+
+/*- THE MENU */
+
+#menu a .hotkey {
+	color: #fff;
+}
+
+#menu a .hotkey.enabled {
+	display: block;
+}
+
+#menubutton {
+	background: #79AB1A;
+}
+
+#menubutton a {
+	background: url(images/arrowdown.png) 160px center no-repeat;
+}
+
+#menu #menulist ul {
+	background: #79AB1A;
+}
+
+#menu #menulist li ul {
+	background: #79AB1A;
+}
+
+#menulist li {
+	background: #79ab1a;
+}
+
+#menulist li.submenu a.top {
+	background: url('images/arrowright.png') 163px center no-repeat;
+}
+
+#menulist li.carrot a.top, #menulist li:hover a.top, #menulist li a:hover, #menulist li li.carrot a {
+	background-color: #536619;
+}
+
+#menulist li.selected a {
+	background: url('images/currentpageindicator.png') 8px center no-repeat;
+}
+
+#menulist li.selected a:hover, #menulist li.selected.carrot a {
+	background: #536619 url('images/currentpageindicator.png') 8px center no-repeat;
+}
+
+#menulist li#link-dashboard, #menulist li#link-logout {
+	border-top: 1px solid #536619;
+}
+
+a#site {
+	color: white;
+	text-shadow: none;
+}
+a#site:hover {
+	color: white;
+	text-shadow: 1px 1px #333;
+	text-decoration: none;
+	border: none;
+}
+
+
+
+/*- DROPBUTTONS */
+
+#page .dropbutton {
+	background: #B7410E;
+}
+#page .dropbutton.alert {
+	background: #FF4500;
+	top: 30px;
+}
+
+#page .dropbutton a, #page .dropbutton button, #page .dropbutton input {
+	color: white;
+}
+
+#page .dropbutton li:hover {
+	background: #853815;
+}
+
+#page .dropbutton li.first-child a {
+	background: url(images/arrowdown.png) right 6px no-repeat;
+}
+
+/*- FOOTER */
+
+#footer p {
+	background: #B7410E;
+}
+
+#footer a, #footer span {
+	color: white;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer .middot {
+	color: white;
+}
+
+/*- CONTAINER */
+
+#page .container {
+	background: white;
+	border: 1px solid black;
+}
