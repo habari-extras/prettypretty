@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <pluggable type="plugin">
 	<name>Pretty, Pretty Admin</name>
-	<version>2</version>
+	<version>2a</version>
 	<author url="http://randywalker.net/">Randy Walker</author>
-	<license>License: Do what you want with this plugin. I'd appreciate a link but you don't have to.</license>
+	<license url="http://randywalker.net/">License: Do what you want with this plugin. I'd appreciate a link but you don't have to.</license>
 	<description><![CDATA[Adds color to the admin area.]]></description>
-	<copyright>2009</copyright>
+	<copyright>2012</copyright>
 </pluggable>
  
